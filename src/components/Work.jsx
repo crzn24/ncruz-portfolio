@@ -1,11 +1,11 @@
 import React from 'react'
 
-import ArtMart from '../assets/projects/ArtMart2.jpg'
-// import Vapour from '../assets/projects/steam-achievement-picker.jpeg'
-// import GifMe from '../assets/projects/funny_movie_gif.jpeg'
-// import Planner from '../assets/projects/daily-planner-app.jpeg'
-// import WeatherDashboard from '../assets/projects/5day-weather-dashboard.jpeg'
-// import PasswordGenerator from '../assets/projects/password-generator-javascript-application.jpeg'
+import ArtMart from '../assets/projects/ArtMart.jpg'
+import Vapour from '../assets/projects/steam-achievement-picker.jpeg'
+import GifMe from '../assets/projects/funny_movie_gif.jpeg'
+import Planner from '../assets/projects/daily-planner-app.jpeg'
+import WeatherDashboard from '../assets/projects/5day-weather-dashboard.jpeg'
+import PasswordGenerator from '../assets/projects/password-generator-javascript-application.jpeg'
 // import NoteTaker from '../assets/projects/note-taker-expressjs.jpeg'
 
 const Work = () => {
@@ -32,11 +32,106 @@ const Work = () => {
                         ArtMart
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo/Deployed</button>
+                            <a href='https://devartmart.herokuapp.com/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code/Repo</button>
+                            <a href='https://github.com/crzn24/artmart'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* card item container 2 */}
+                <div style={{backgroundImage: `url(${Vapour})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font bold text-white tracking-wider'>
+                        Vapour
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://vapour-for-gamers.herokuapp.com/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/crzn24/Steam-Achievement-Picker.git'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* card item container 3 */}
+                <div style={{backgroundImage: `url(${GifMe})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font bold text-white tracking-wider'>
+                        GifMe That Movie & TV Info
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://maksimrazuvaev.github.io/funny_movie_gif/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/crzn24/gif_me_that'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* card item container 4 */}
+                <div style={{backgroundImage: `url(${Planner})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font bold text-white tracking-wider'>
+                        Work Day Planner
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://crzn24.github.io/daily-planner-app/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/crzn24/daily-planner-app.git'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* card item container 5 */}
+                <div style={{backgroundImage: `url(${WeatherDashboard})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font bold text-white tracking-wider'>
+                        Weather Dashboard
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://crzn24.github.io/5day-weather-dashboard/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/crzn24/5day-weather-dashboard.git'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* card item container 6 */}
+                <div style={{backgroundImage: `url(${PasswordGenerator})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font bold text-white tracking-wider'>
+                        Password Generator
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://crzn24.github.io/password-generator-javascript-application/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/crzn24/password-generator-javascript-application.git'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
                     </div>
