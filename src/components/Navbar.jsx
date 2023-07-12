@@ -8,7 +8,7 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
   // keep state
   const [nav, setNav] = useState(false)
-  const handleClick = () => setNav(!nav) //sets value of nav to its opposite value. if true will set it to true, and vice versa.
+  const handleClick = () => setNav(!nav) //Sets value of nav to its opposite value. If true will set it to true, and vice versa. Function is used for hamburger mobile menu to close after selecting item.
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
