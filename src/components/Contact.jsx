@@ -4,7 +4,7 @@ import React from 'react'
 // need method POST and action for getform.io to receive submissions
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center p-4'>
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
         <form method="POST" action='https://getform.io/f/6edc435c-3bbd-45a0-8b12-dbb62e93bc6b' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
