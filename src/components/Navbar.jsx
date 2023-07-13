@@ -11,37 +11,44 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav) //Sets value of nav to its opposite value. If true will set it to true, and vice versa. Function is used for hamburger mobile menu to close after selecting item.
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1D1E1F] text-gray-300'>
       {/* logo */}
       <div>
-        <img src={Logo} alt="logo image" style={{width: '50px'}}/>
+        <Link to="home" smooth={true} duration={500}>
+          <img src={Logo} alt="logo image" style={{width: '50px'}} className='hover:scale-110 duration-500'/>
+        </Link>
       </div>
 
       {/* menu */}
         {/* anything above medium 700 px will display menu */}
       {/* <div className='hidden md:flex'> */}
         <ul className='hidden md:flex'>
-          <li>
+          <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
             <Link to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li>
+          <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
             <Link to="about" smooth={true} duration={500}>
               About Me
             </Link>
           </li>
-          <li>
+          <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
             <Link to="work" smooth={true} duration={500}>
               Portfolio
             </Link>
           </li>
-          <li>
+          <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>
           </li>
-          <li>
+          <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
             <Link to="resume" smooth={true} duration={500}>
               Resume
             </Link>
@@ -56,8 +63,8 @@ const Navbar = () => {
 
       {/* mobile menu */}
         {/* ternary operator */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#1D1E1F] flex flex-col justify-center items-center'}>
+        <li className='py-6 text-4xl hover:scale-110 hover:border-b-4 duration-500'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
@@ -65,6 +72,11 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About Me
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -102,7 +114,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='/'>
+            href='mailto:cruzn@uw.edu'>
               Email <HiOutlineMail size={30} />
             </a>
           </li>
