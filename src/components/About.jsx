@@ -17,7 +17,7 @@ const About = () => {
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
             <div className="sm:text-right text-4xl font-bold">
               <p>
-                Hi! I'm <span className="text-[#574271]">Nathan</span>, nice to meet you. Please take a look around.
+                Hi! I'm <span className="text-[#574271] hover:underline decoration-[#574271]">Nathan</span>, nice to meet you. Please take a look around.
               </p>
             </div>
 
