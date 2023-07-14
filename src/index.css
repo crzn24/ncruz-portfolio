@@ -39,3 +39,14 @@
     )!important;
 } */
 /* important tag because react was neglecting our styling on line 23 of Work.js */
+
+/* Profile Picture  */
+/* .circular_image {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+    clip-path: circle();
+    margin-bottom: 20px;
+} */

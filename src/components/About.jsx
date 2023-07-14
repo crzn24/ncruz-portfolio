@@ -1,4 +1,5 @@
 import React from "react";
+import profilePhoto from "../assets/ncruz-photo2.PNG";
 
 const About = () => {
   return (
@@ -45,6 +46,9 @@ const About = () => {
                 through technology. Together, let's create a better and more
                 inclusive digital landscape!"
               </p>
+            </div>
+            <div>
+              <img className="circular_image rounded-full" src={profilePhoto} alt=""></img>
             </div>
           </div>
 
