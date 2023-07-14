@@ -48,7 +48,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <img className="circular_image rounded-full" src={profilePhoto} alt=""></img>
+              <img className="circular_image rounded-full shadow-xl shadow-[#040c16]" src={profilePhoto} alt=""></img>
             </div>
           </div>
 
