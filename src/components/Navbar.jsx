@@ -64,32 +64,32 @@ const Navbar = () => {
       {/* mobile menu */}
         {/* ternary operator */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#1D1E1F] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl hover:scale-110 hover:border-b-4 duration-500'>
+        <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About Me
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Portfolio
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
           <Link onClick={handleClick} to="resume" smooth={true} duration={500}>
             Resume
           </Link>
