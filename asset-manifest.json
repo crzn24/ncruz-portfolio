@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/ncruz-portfolio/static/css/main.3314e6de.css",
-    "main.js": "/ncruz-portfolio/static/js/main.12707e0d.js",
+    "main.css": "/ncruz-portfolio/static/css/main.c4b459da.css",
+    "main.js": "/ncruz-portfolio/static/js/main.7d634837.js",
+    "static/media/ncruz-photo2.PNG": "/ncruz-portfolio/static/media/ncruz-photo2.95d6e0a2f5ae61c81034.PNG",
     "static/media/steam-achievement-picker.jpeg": "/ncruz-portfolio/static/media/steam-achievement-picker.aaf5eba3f959f8f1aade.jpeg",
     "static/media/ArtMart.jpg": "/ncruz-portfolio/static/media/ArtMart.4b261889ab51dc278bae.jpg",
     "static/media/funny_movie_gif.jpeg": "/ncruz-portfolio/static/media/funny_movie_gif.5528c6fd5af757f173ce.jpeg",
@@ -11,18 +12,18 @@
     "static/media/react.png": "/ncruz-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/ncruz-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/ncruz-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/logo3.png": "/ncruz-portfolio/static/media/logo3.6ac679afecdde618db51.png",
     "static/media/github.png": "/ncruz-portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/ncruz-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/ncruz-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/logo1.png": "/ncruz-portfolio/static/media/logo1.e605d8c99b85f9ad64bc.png",
     "static/media/css.png": "/ncruz-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/ncruz-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ncruz-portfolio/index.html",
-    "main.3314e6de.css.map": "/ncruz-portfolio/static/css/main.3314e6de.css.map",
-    "main.12707e0d.js.map": "/ncruz-portfolio/static/js/main.12707e0d.js.map"
+    "main.c4b459da.css.map": "/ncruz-portfolio/static/css/main.c4b459da.css.map",
+    "main.7d634837.js.map": "/ncruz-portfolio/static/js/main.7d634837.js.map"
   },
   "entrypoints": [
-    "static/css/main.3314e6de.css",
-    "static/js/main.12707e0d.js"
+    "static/css/main.c4b459da.css",
+    "static/js/main.7d634837.js"
   ]
 }
