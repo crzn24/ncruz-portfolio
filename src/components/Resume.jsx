@@ -9,7 +9,7 @@ const Resume = () => {
                     <p className="text-4xl font-bold inline border-b-4 border-[#FADE4B]">
                         Coming Soon...
                     </p>
-            </div>
+                </div>
 
             {/* <div></div> */}
 
@@ -28,6 +28,24 @@ const Resume = () => {
                 </div>
                 </div> */}
             </div>
+
+                                                    {/* Front-End
+                                        HTML
+                                        CSS
+                                        Bootstrap
+                                        Javascript
+                                        React
+                                        Back-End
+                                        Node
+                                        MongoDB, Mongoose
+                                        MySQL, Sequelize
+                                        APIs
+                                        Express
+                                        Additional Skills
+                                        Photoshop
+                                        Affinity Designer, Procreate
+                                        Miro
+                                        Figma */}
         </div>
     </div>
   );
