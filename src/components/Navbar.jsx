@@ -45,13 +45,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
+            <Link to="resume" smooth={true} duration={500}>
+              Resume
             </Link>
           </li>
           <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
-            <Link to="resume" smooth={true} duration={500}>
-              Resume
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
             </Link>
           </li>
         </ul>
@@ -86,13 +86,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
+          <Link onClick={handleClick} to="resume" smooth={true} duration={500}>
+            Resume
           </Link>
         </li>
         <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
-          <Link onClick={handleClick} to="resume" smooth={true} duration={500}>
-            Resume
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
           </Link>
         </li>
       </ul>
