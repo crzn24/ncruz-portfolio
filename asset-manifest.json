@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ncruz-portfolio/static/css/main.c4b459da.css",
-    "main.js": "/ncruz-portfolio/static/js/main.243f89ba.js",
+    "main.css": "/ncruz-portfolio/static/css/main.350ca1ec.css",
+    "main.js": "/ncruz-portfolio/static/js/main.853d158f.js",
     "static/media/ncruz-photo2.PNG": "/ncruz-portfolio/static/media/ncruz-photo2.95d6e0a2f5ae61c81034.PNG",
     "static/media/steam-achievement-picker.jpeg": "/ncruz-portfolio/static/media/steam-achievement-picker.aaf5eba3f959f8f1aade.jpeg",
     "static/media/ArtMart.jpg": "/ncruz-portfolio/static/media/ArtMart.4b261889ab51dc278bae.jpg",
@@ -10,6 +10,7 @@
     "static/media/daily-planner-app.jpeg": "/ncruz-portfolio/static/media/daily-planner-app.e648acccf9ff9b70c91d.jpeg",
     "static/media/password-generator-javascript-application.jpeg": "/ncruz-portfolio/static/media/password-generator-javascript-application.bfa438a6195064e60808.jpeg",
     "static/media/logo3.png": "/ncruz-portfolio/static/media/logo3.092fd6088da218109584.png",
+    "static/media/NCRUZ-DEV-RESUME2023.pdf": "/ncruz-portfolio/static/media/NCRUZ-DEV-RESUME2023.cd93ca57ff67d09bcb38.pdf",
     "static/media/react.png": "/ncruz-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/ncruz-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/ncruz-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -19,11 +20,11 @@
     "static/media/css.png": "/ncruz-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/ncruz-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ncruz-portfolio/index.html",
-    "main.c4b459da.css.map": "/ncruz-portfolio/static/css/main.c4b459da.css.map",
-    "main.243f89ba.js.map": "/ncruz-portfolio/static/js/main.243f89ba.js.map"
+    "main.350ca1ec.css.map": "/ncruz-portfolio/static/css/main.350ca1ec.css.map",
+    "main.853d158f.js.map": "/ncruz-portfolio/static/js/main.853d158f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4b459da.css",
-    "static/js/main.243f89ba.js"
+    "static/css/main.350ca1ec.css",
+    "static/js/main.853d158f.js"
   ]
 }
