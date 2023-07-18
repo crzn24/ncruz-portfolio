@@ -58,11 +58,11 @@ const Resume = () => {
                     </div>
 
                     <div>
-                <a href={resumepdf}>
-                    <button className='text-white border-2 bg-black border-[#FADE4B] rounded-full hover:border-white hover:shadow-md hover:shadow-[#F8E167] duration-500 px-4 py-3 my-8 mx-auto flex items-center'>Download my Resume</button>
+                <a href={resumepdf} download>
+                    <button className='text-white border-2 bg-black border-[#FADE4B] rounded-full hover:border-white hover:shadow-md hover:shadow-[#F8E167] duration-500 px-4 py-3 my-8 mx-auto flex items-center'>Download Resume</button>
                 </a>
             </div>
-            
+
                 </div>
 
             </div>
