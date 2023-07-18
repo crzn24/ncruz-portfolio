@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
             <Link to="about" smooth={true} duration={500}>
-              About Me
+              About
             </Link>
           </li>
           <li className='rounded-full hover:scale-110 hover:shadow-md hover:shadow-white duration-500'>
@@ -72,7 +72,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About Me
+            About
           </Link>
         </li>
         <li className='py-6 text-4xl hover:scale-110 duration-500 hover:underline decoration-gray-100/75'>
