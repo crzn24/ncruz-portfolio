@@ -44,7 +44,7 @@ const About = () => {
                 accessibility and inclusivity. Join me on this exciting journey
                 as we bring innovative ideas to life and empower individuals
                 through technology. Together, let's create a better and more
-                inclusive digital landscape!"
+                inclusive digital landscape!
               </p>
             </div>
             <div>
