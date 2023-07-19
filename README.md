@@ -1,5 +1,5 @@
 # ncruz-portfolio
-A personal portfolio build using react
+A personal portfolio built using React
 
 ## Description
 
