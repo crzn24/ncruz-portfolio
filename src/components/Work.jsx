@@ -32,10 +32,10 @@ const Work = () => {
                         ArtMart
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://devartmart.herokuapp.com/'>
+                            <a href='https://devartmart.herokuapp.com/' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/crzn24/artmart'>
+                            <a href='https://github.com/crzn24/artmart' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
@@ -51,10 +51,10 @@ const Work = () => {
                         Vapour
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://vapour-for-gamers.herokuapp.com/'>
+                            <a href='https://vapour-for-gamers.herokuapp.com/' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/crzn24/Steam-Achievement-Picker.git'>
+                            <a href='https://github.com/crzn24/Steam-Achievement-Picker.git' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
@@ -70,10 +70,10 @@ const Work = () => {
                         GifMe That Movie & TV Info
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://maksimrazuvaev.github.io/funny_movie_gif/'>
+                            <a href='https://maksimrazuvaev.github.io/funny_movie_gif/' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/crzn24/gif_me_that'>
+                            <a href='https://github.com/crzn24/gif_me_that' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
@@ -89,10 +89,10 @@ const Work = () => {
                         Work Day Planner
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://crzn24.github.io/daily-planner-app/'>
+                            <a href='https://crzn24.github.io/daily-planner-app/' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/crzn24/daily-planner-app.git'>
+                            <a href='https://github.com/crzn24/daily-planner-app.git' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
@@ -108,10 +108,10 @@ const Work = () => {
                         Weather Dashboard
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://crzn24.github.io/5day-weather-dashboard/'>
+                            <a href='https://crzn24.github.io/5day-weather-dashboard/' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/crzn24/5day-weather-dashboard.git'>
+                            <a href='https://github.com/crzn24/5day-weather-dashboard.git' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
@@ -127,10 +127,10 @@ const Work = () => {
                         Password Generator
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://crzn24.github.io/password-generator-javascript-application/'>
+                            <a href='https://crzn24.github.io/password-generator-javascript-application/' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/crzn24/password-generator-javascript-application.git'>
+                            <a href='https://github.com/crzn24/password-generator-javascript-application.git' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
