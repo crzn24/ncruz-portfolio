@@ -23,7 +23,7 @@ const Resume = () => {
                             <li>CSS</li>
                             <li>Bootstrap</li>
                             <li>TailwindCSS</li>
-                            <li>Javascript</li>
+                            <li>JavaScript</li>
                             <li>React</li>
                         </ul>
                     </div>
