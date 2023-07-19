@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ncruz-portfolio/static/css/main.350ca1ec.css",
-    "main.js": "/ncruz-portfolio/static/js/main.f0c2ea95.js",
+    "main.js": "/ncruz-portfolio/static/js/main.f6e6d91f.js",
     "static/media/ncruz-photo2.PNG": "/ncruz-portfolio/static/media/ncruz-photo2.95d6e0a2f5ae61c81034.PNG",
     "static/media/steam-achievement-picker.jpeg": "/ncruz-portfolio/static/media/steam-achievement-picker.aaf5eba3f959f8f1aade.jpeg",
     "static/media/ArtMart.jpg": "/ncruz-portfolio/static/media/ArtMart.4b261889ab51dc278bae.jpg",
@@ -21,10 +21,10 @@
     "static/media/javascript.png": "/ncruz-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ncruz-portfolio/index.html",
     "main.350ca1ec.css.map": "/ncruz-portfolio/static/css/main.350ca1ec.css.map",
-    "main.f0c2ea95.js.map": "/ncruz-portfolio/static/js/main.f0c2ea95.js.map"
+    "main.f6e6d91f.js.map": "/ncruz-portfolio/static/js/main.f6e6d91f.js.map"
   },
   "entrypoints": [
     "static/css/main.350ca1ec.css",
-    "static/js/main.f0c2ea95.js"
+    "static/js/main.f6e6d91f.js"
   ]
 }
