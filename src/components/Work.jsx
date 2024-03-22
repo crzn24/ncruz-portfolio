@@ -6,7 +6,8 @@ import GifMe from '../assets/projects/funny_movie_gif.jpeg'
 import Planner from '../assets/projects/daily-planner-app.jpeg'
 import WeatherDashboard from '../assets/projects/5day-weather-dashboard.jpeg'
 import PasswordGenerator from '../assets/projects/password-generator-javascript-application.jpeg'
-// import NoteTaker from '../assets/projects/note-taker-expressjs.jpeg'
+import NoteTaker from '../assets/projects/note-taker-expressjs.jpeg'
+import MorningMeeting from '../assets/projects/morning-meeting-app.png'
 
 const Work = () => {
   return (
@@ -22,6 +23,25 @@ const Work = () => {
                 {/* camelCase because CSS in React. Back ticks for template literal */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
+
+{/* card item container 7 */}
+                <div style={{backgroundImage: `url(${MorningMeeting})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font bold text-white tracking-wider'>
+                        Password Generator
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://crzn24.github.io/morning-meeting-app/' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/crzn24/morning-meeting-app' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 {/* card item container 1 */}
                 <div style={{backgroundImage: `url(${ArtMart})`}}
@@ -131,6 +151,27 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/crzn24/password-generator-javascript-application.git' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {/* card item container 8 */}
+                <div style={{backgroundImage: `url(${NoteTaker})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font bold text-white tracking-wider'>
+                        Password Generator
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://note-taker-expressjs-crzn24.herokuapp.com/' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/crzn24/note-taker-expressjs' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
                             </a>
                         </div>
