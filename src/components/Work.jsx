@@ -30,7 +30,7 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font bold text-white tracking-wider'>
-                        Password Generator
+                        Morning Meeting App
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://crzn24.github.io/morning-meeting-app/' target="_blank">
@@ -165,7 +165,7 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font bold text-white tracking-wider'>
-                        Password Generator
+                        Note Taker
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://note-taker-expressjs-crzn24.herokuapp.com/' target="_blank">

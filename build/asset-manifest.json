@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/ncruz-portfolio/static/css/main.350ca1ec.css",
-    "main.js": "/ncruz-portfolio/static/js/main.42c717b8.js",
+    "main.js": "/ncruz-portfolio/static/js/main.86f7aa75.js",
+    "static/media/morning-meeting-app.png": "/ncruz-portfolio/static/media/morning-meeting-app.023675e41548da81a1d6.png",
     "static/media/ncruz-photo2.PNG": "/ncruz-portfolio/static/media/ncruz-photo2.95d6e0a2f5ae61c81034.PNG",
     "static/media/steam-achievement-picker.jpeg": "/ncruz-portfolio/static/media/steam-achievement-picker.aaf5eba3f959f8f1aade.jpeg",
     "static/media/ArtMart.jpg": "/ncruz-portfolio/static/media/ArtMart.4b261889ab51dc278bae.jpg",
@@ -9,6 +10,7 @@
     "static/media/5day-weather-dashboard.jpeg": "/ncruz-portfolio/static/media/5day-weather-dashboard.84a5171ec4636d210844.jpeg",
     "static/media/daily-planner-app.jpeg": "/ncruz-portfolio/static/media/daily-planner-app.e648acccf9ff9b70c91d.jpeg",
     "static/media/password-generator-javascript-application.jpeg": "/ncruz-portfolio/static/media/password-generator-javascript-application.bfa438a6195064e60808.jpeg",
+    "static/media/note-taker-expressjs.jpeg": "/ncruz-portfolio/static/media/note-taker-expressjs.25f11d94112ada72de1f.jpeg",
     "static/media/logo3.png": "/ncruz-portfolio/static/media/logo3.092fd6088da218109584.png",
     "static/media/NCRUZ-DEV-RESUME2023.pdf": "/ncruz-portfolio/static/media/NCRUZ-DEV-RESUME2023.40800a0205251731a3bb.pdf",
     "static/media/react.png": "/ncruz-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -21,10 +23,10 @@
     "static/media/javascript.png": "/ncruz-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ncruz-portfolio/index.html",
     "main.350ca1ec.css.map": "/ncruz-portfolio/static/css/main.350ca1ec.css.map",
-    "main.42c717b8.js.map": "/ncruz-portfolio/static/js/main.42c717b8.js.map"
+    "main.86f7aa75.js.map": "/ncruz-portfolio/static/js/main.86f7aa75.js.map"
   },
   "entrypoints": [
     "static/css/main.350ca1ec.css",
-    "static/js/main.42c717b8.js"
+    "static/js/main.86f7aa75.js"
   ]
 }
